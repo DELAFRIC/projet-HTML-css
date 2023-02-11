@@ -92,43 +92,71 @@ nav a {
 /* main carton des section ********************************** */
 
 main {
-    margin-left: 50PX;
-    margin-right: 50PX;
+    margin-left: 100PX;
+    margin-right: 100PX;
 }
 
 main .section {
-    background-color: blanchedalmond;
+    background-color: rgb(211, 208, 208);
     margin: 20px 0px;
 }
 
 main .section h2 {
-    color: blue;
+    text-transform: capitalize;
+    color: #0000ff;
     font-size: 2rem;
+}
 
+main .section p {
+
+    font-size: 30PX;
+    color: rgb(0, 0, 0);
 }
 
 /* les 2primiere image */
 main .section .images {
     display: flex;
     list-style-type: none;
+    justify-content: space-between;
 }
 
 .image * {
-    width: 500PX;
-    margin: 10PX;
+    width: 560PX;
     border-radius: 20PX;
 }
 
-/* les logos des titres et les titre  */
+/* nos services**************************************************************** */
+
+
+/* les logos des titres et les titre dans class="serv-titre  */
 .serv-titre {
     display: flex;
+    font-size: 25px;
 }
-
-.serv-titre p {
-    color: rgb(0, 0, 0);
-}
-
 
 .serv-titre img {
     width: 30PX;
 }
+
+/* alignement des  service   */
+.servicesgenarale {
+    padding: 20px;
+}
+
+main .service12,
+.service34 {
+    display: flex;
+    
+}
+
+
+/* contactez nous ======================================================== */
+.imagedefin img {
+    width: 800PX;
+    height: 100%;
+}
+
+.whatsapp img {
+    width: 30PX;
+}
+
