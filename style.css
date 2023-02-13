@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2? family= Poppins:ital,wght@0,300;1,300;1,500;1,700 & display=swap');
+
 body,
 * {
     padding: 0px;
     margin: 0px;
+    font-family: 'Poppins', sans-serif;
 
 }
 
@@ -22,13 +25,13 @@ body,
     color: white;
     text-align: center;
     border: 5PX white solid;
-    margin-left: 350PX;
-    margin-right: 350PX;
+    margin: 0PX 350PX;
     font-size: 2.8rem;
     margin-bottom: 3PX;
     margin-top: 3PX;
     border-radius: 20px;
     text-transform: uppercase;
+    font-weight: 300PX;
 
 }
 
@@ -89,15 +92,14 @@ nav a {
 
 }
 
-/* main carton des section ********************************** */
+/* main carton des section ************************************************************************* */
 
 main {
-    margin-left: 100PX;
-    margin-right: 100PX;
+    margin: 0px 100PX;
 }
 
 main .section {
-    background-color: rgb(211, 208, 208);
+
     margin: 20px 0px;
 }
 
@@ -105,6 +107,8 @@ main .section h2 {
     text-transform: capitalize;
     color: #0000ff;
     font-size: 2rem;
+    margin-bottom: 10PX;
+    font-weight: 300PX;
 }
 
 main .section p {
@@ -122,10 +126,11 @@ main .section .images {
 
 .image * {
     width: 560PX;
+    border: 1px solid rgb(155, 151, 151);
     border-radius: 20PX;
 }
 
-/* nos services**************************************************************** */
+/* nos services*********** */
 
 
 /* les logos des titres et les titre dans class="serv-titre  */
@@ -146,17 +151,89 @@ main .section .images {
 main .service12,
 .service34 {
     display: flex;
-    
+    margin-bottom: 20PX;
+
 }
 
 
 /* contactez nous ======================================================== */
-.imagedefin img {
-    width: 800PX;
-    height: 100%;
+.formulaire {
+    max-width: 100%;
+    display: flex;
+    position: relative;
+    margin-top: 10px;
+}
+
+.formulaire img[alt="image de fin"] {
+    height: 510PX;
+}
+
+
+form {
+    border: 1PX solid white;
+    width: 55%;
+    padding: 20PX;
+    background-color: #0062ffaf;
+    border-radius: 50px;
+    position: absolute;
+    left: 430px;
+    top: 68PX;
 }
 
 .whatsapp img {
     width: 30PX;
 }
 
+.whatsapp {
+    display: flex;
+    justify-content: center;
+}
+
+.whatsapp span {
+    font-size: 35px;
+    color: white;
+    font-weight: bold;
+}
+
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 8PX;
+    margin: 5px 2px;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 40px;
+}
+
+form input[type="submit"] {
+    width: 40%;
+    padding: 8PX;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 40px;
+    text-transform: capitalize;
+    font-weight: bold;
+    color: #0000ff;
+}
+
+/* footer ******************************************************************************/
+footer {
+    background-color: blue;
+    padding: 20PX;
+    margin-top: 80PX;
+}
+
+footer p {
+    font-size: 1.4rem;
+    text-align: center;
+    color: whitesmoke;
+}
+
+footer p a {
+    text-decoration: none;
+    color: rgb(199, 198, 198);
+    font-weight: bold;
+
+}
